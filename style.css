@@ -1,0 +1,109 @@
+/* This is CSS for my personal styling of the background */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+html {
+	height: 2000px;
+	background-color: rgba(255, 0, 0, 0.274);
+	background-image:url(polarexpress.gif);
+	background-size: 100% auto;
+	background-position: top center;
+	background-attachment: fixed;
+	}
+
+body {
+	height: 100%;
+	background-image: linear-gradient(rgb(7, 7, 7), transparent 70%);
+	background-size: 100% 100%;
+	mix-blend-mode: difference;
+	}
+/* Original CSS for quiz */
+body{
+	padding: 0;
+	margin: 0;	
+	width:100vw;
+	height: 100vh;
+	position: relative;
+}
+.panel{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: -1;
+	position: relative;
+	margin-top: -1500;
+
+}
+.question-container{
+	margin: 50px;
+	padding: 5px;
+	width: 80vw;
+	height: 20vh;
+	background-color: rgb(63, 9, 9);
+	font-size: 40px;
+	text-align: center;
+	color: rgb(216, 219, 218);
+	z-index: -1;
+	position: relative;
+	
+}
+.result{
+	margin: 10px;
+	padding: 5px;
+	width:80vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+	
+}
+.option-container{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 20vh;
+	background-color: rgba(0, 0, 0, 0.2);
+		
+}
+.option{	
+	padding: 7px;
+	width: 15vw;
+	height: 10vh;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 25%;
+	color: white;
+}
+.option:hover{
+	background-color: rgb(122, 108, 24);
+}
+.navigation{
+	width: 80vw;
+	height: 10vh;
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	background-color:rgba(146, 142, 142, 0);
+}
+
+.evaluate,.next{
+	width:30vw;
+	height: 8vh;
+	padding: 5px;
+	font-size: 40px;
+}
+.evaluate{
+	
+	background-color: rgba(199, 114, 114, 0.877);
+}
+.next{
+	color: white;
+	background-color: rgba(199, 114, 114, 0.877);
+}
